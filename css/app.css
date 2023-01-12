@@ -427,8 +427,8 @@ a{
 }
 /* Custom colors */
 .ux.red {
-  color: #EB2328;
-  fill: #EB2328;
+  color: #f70f4d;
+  fill: #f70f4d;
 }
 .ux.green {
   color: #8CC0C7;
@@ -462,7 +462,7 @@ a{
   margin-left: -16rem;
   width: 100%;
   height: 1px;
-  background-image: linear-gradient(to right, transparent 80%, #EB2328 20%);
+  background-image: linear-gradient(to right, transparent 80%, #f70f4d 20%);
   opacity: .7;
   background-position: bottom;
   background-size: 10px 1.5px;
@@ -472,7 +472,7 @@ a{
   font-weight: bold;
   text-align: center;
   color: #fff;
-  background-color: #EB2328;
+  background-color: #f70f4d;
   padding-top: 150%;
 }
 
@@ -559,7 +559,7 @@ a{
 /* *UX Helper Classes* */
 /* Custom box */
 .ux.cbox {
-  background: #EB2328;
+  background: #f70f4d;
   height: 6.375rem;
   position: absolute;
   background-size: contain;
@@ -742,7 +742,7 @@ a{
   padding: .9rem 0.2rem .6rem 0rem;
 }
 .top-menu .overlay-up-next-nav{
-  background: #EB2328;
+  background: #f70f4d;
   padding: 1.5rem 0 1.3rem 0;
   width:6.12rem;
 }
@@ -1229,7 +1229,7 @@ a{
   margin-top: 1rem;
   width: 100%;
   height: 1px;
-  background-image: linear-gradient(to right, transparent 80%, #EB2328 20%);
+  background-image: linear-gradient(to right, transparent 80%, #f70f4d 20%);
   opacity: .7;
   background-position: bottom;
   background-size: 10px 1.5px;
@@ -1297,12 +1297,12 @@ a{
    position:relative;
    transition:all .2s;
    margin-bottom:0rem;
-   border-left:4px solid #EB2328;
+   border-left:4px solid #f70f4d;
    border-bottom: 1px solid #0F031F;
    justify-content: space-between;
  }
  .steps-lists .path-steps .display-feed {
-  border-left:2px solid #EB2328;
+  border-left:2px solid #f70f4d;
   border-bottom: 2px solid #0F031F;
   display: block;
 }
@@ -2421,7 +2421,7 @@ line-height: 1rem;
 .section-footer .footer-tagline {
   margin:0;
   font-size: 18px;
-  color: #EB2328;
+  color: #f70f4d;
   letter-spacing: 0;
   line-height: 32px;
 }
@@ -3179,7 +3179,7 @@ line-height: 1rem;
 
 .section-paragraph ul li,
 .section-paragraph ol li::before{
-  color: #EB2328;
+  color: #f70f4d;
   font-weight: bold;
 }
 .section-paragraph li{
