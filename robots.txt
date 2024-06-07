@@ -2,12 +2,4 @@ User-agent: *
 
 Allow: /
 
-Disallow: /alia-the-cognitive-contentai/
-Disallow: /flockrush-smarter-content-experiences-2/
-Disallow: /b2b-customer-experience-opportunities-2/
-Disallow: /the-right-content-for-the-best-results-2/
-Disallow: /why-you-should-use-flockrush-2/
-Disallow: /gartner-make-it-easier-for-customers-to-buy-2/
-Disallow: /the-future-of-b2b-marketing-2/
-Disallow: /create-smarter-content-experiences-with-ai/
 Sitemap: https://www.flockrush.com/sitemeta/sitemap.xml
