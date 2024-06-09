@@ -5,17 +5,6 @@
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width,initial-scale=1" />
   <title>Empowering Your Business with Smarter AI Solutions</title>
-  <script>
-    document.addEventListener("DOMContentLoaded", function () {
-      var isMobile = /iPhone|iPad|iPod|Android/i.test(navigator.userAgent);
-      var link = document.createElement('link');
-      link.rel = 'preload';
-      link.as = 'image';
-      link.href = isMobile ? '../assets/flockrush-masthead-blue-image-mobile.webp' :
-        '../assets/flockrush-masthead-blue-image.webp';
-      document.head.appendChild(link);
-    });
-  </script>
   <meta name="description"
     content="Flockrush empowers businesses with AI solutions to drive efficiency, innovation, and strategic growth. Partnering with top enterprises since 2006." />
   <meta name="keywords"
@@ -1146,6 +1135,15 @@
       "demo": "1"
     }
   </script>
+  <script>
+    document.addEventListener("DOMContentLoaded", function () {
+      var link = document.createElement('link');
+      link.rel = 'preload';
+      link.as = 'image';
+      link.href = '../assets/flockrush-masthead-blue-image-mobile.webp';
+      document.head.appendChild(link);
+    });
+  </script>
 </head>
 
 <body>
@@ -1259,6 +1257,11 @@
         <div class="a-slide sections">
           <div class="section-header section-0 ">
             <div class="ui segment basic padding-left-0" id="masthead">
+              <picture>
+                <source media="(max-width: 768px)" srcset="../assets/flockrush-masthead-blue-image-mobile.webp">
+                <source media="(min-width: 769px)" srcset="../assets/flockrush-masthead-blue-image.webp">
+                <img src="../assets/flockrush-masthead-blue-image.webp" alt="Masthead Image">
+              </picture>
               <div class="ui text container" style="margin-left:0!important;padding-top:30%;">
                 <div class="ui left aligned grid container" style="margin-left:0!important;background-color:#fff;">
                   <div class="right aligned row padding-top-bottom-0">
