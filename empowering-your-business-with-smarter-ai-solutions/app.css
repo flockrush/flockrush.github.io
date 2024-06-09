@@ -179,6 +179,16 @@ img.ui.image {
   background-color: #d60c40;
 }
 
+.ui.primary.button.bubble {
+  background-color: #AF1313;
+  padding: 1rem 2rem;
+  border-radius: 100000px;
+}
+
+.ui.primary.button.bubble:hover {
+  background-color: #3cf;
+}
+
 /*!
  * # Semantic UI 2.4.1 - Grid
  * http://github.com/semantic-org/semantic-ui/
@@ -3879,16 +3889,6 @@ screen and (min-width: 40em) {
 @media screen and (min-width:1024px) {}
 
 /* li ul bullet formating .section-paragraph li::before{content:url("/assets/bullet-style-img.webp"); */
-
-.ui.primary.button.bubble {
-  background-color: #AF1313;
-  padding: 1rem 2rem;
-  border-radius: 100000px;
-}
-
-.ui.primary.button.bubble:hover {
-  background-color: #3cf;
-}
 
 /* section - excerpt
 

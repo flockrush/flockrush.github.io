@@ -991,6 +991,16 @@ img.ui.bordered.image {
   background-color: #d60c40;
 }
 
+.ui.primary.button.bubble {
+  background-color: #AF1313;
+  padding: 1rem 2rem;
+  border-radius: 100000px;
+}
+
+.ui.primary.button.bubble:hover {
+  background-color: #3cf;
+}
+
 /*!
  * # Semantic UI 2.4.1 - Grid
  * http://github.com/semantic-org/semantic-ui/
@@ -18758,8 +18768,6 @@ a {
   height: 1.25rem;
 }
 
-.top-menu .social-nav .social-tumblr {}
-
 .top-menu .social-nav .social-tumblr svg {
   width: .95rem;
   height: .95rem;
@@ -18881,8 +18889,6 @@ a {
 }
 
 /* When right nav is closed, the contact info and form is moved to top nav */
-
-.nav-open {}
 
 
 /* navigation contact details */
@@ -21420,16 +21426,6 @@ html.is-leaving.to-backward .a-slide {
 
 .section-paragraph li.ql-indent-9 {
   padding-left: 28.5em
-}
-
-.ui.primary.button.bubble {
-  background-color: #AF1313;
-  padding: 1rem 2rem;
-  border-radius: 100000px;
-}
-
-.ui.primary.button.bubble:hover {
-  background-color: #3cf;
 }
 
 /* section - excerpt
