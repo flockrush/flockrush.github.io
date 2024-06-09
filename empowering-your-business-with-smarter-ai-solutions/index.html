@@ -5,6 +5,17 @@
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width,initial-scale=1" />
   <title>Empowering Your Business with Smarter AI Solutions</title>
+  <script>
+    document.addEventListener("DOMContentLoaded", function () {
+      var isMobile = /iPhone|iPad|iPod|Android/i.test(navigator.userAgent);
+      var link = document.createElement('link');
+      link.rel = 'preload';
+      link.as = 'image';
+      link.href = isMobile ? '../assets/flockrush-masthead-blue-image-mobile.webp' :
+        '../assets/flockrush-masthead-blue-image.webp';
+      document.head.appendChild(link);
+    });
+  </script>
   <meta name="description"
     content="Flockrush empowers businesses with AI solutions to drive efficiency, innovation, and strategic growth. Partnering with top enterprises since 2006." />
   <meta name="keywords"
