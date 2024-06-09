@@ -1,0 +1,2 @@
+purgecss --css css/app.css --content empowering-your-business-with-smarter-ai-solutions/index.html --output empowering-your-business-with-smarter-ai-solutions/
+cleancss -o empowering-your-business-with-smarter-ai-solutions/app.min.css empowering-your-business-with-smarter-ai-solutions/app.css --source-map

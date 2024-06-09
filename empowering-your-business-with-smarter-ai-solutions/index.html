@@ -36,6 +36,9 @@
   <meta property="twitter:image" content="../assets/flocrush-masthead-icon.webp" />
   <meta property="twitter:image:width" content="512" />
   <meta property="twitter:image:height" content="512" />
+  <!-- Preconnect to required origins -->
+  <link rel="preconnect" href="https://www.google-analytics.com">
+  <link rel="preconnect" href="https://www.googletagmanager.com">
   <script>
     window.ga = window.ga || function () {
       (ga.q = ga.q || []).push(arguments)
@@ -1621,15 +1624,22 @@
       </div>
     </div>
   </div>
-  <link rel="stylesheet" href="../css/app.min.css">
+  <link rel="stylesheet" href="app.min.css">
   <!-- Cookie Consent Banner -->
   <div id="cookie-consent">
     <p>We use cookies to improve your experience. By using our site, you agree to our <a
         href="/privacy-policy/index.html">Privacy Policy</a>.</p> <button id="accept-cookies">Accept</button>
   </div> <!-- Cookie Consent Banner -->
+  <script>
+    window.addEventListener('load', function () {
+      var script = document.createElement('script');
+      script.src = '../js/app.js';
+      script.defer = true;
+      document.body.appendChild(script);
+    });
+  </script>
   <script async defer src="https://www.instagram.com/embed.js"></script>
   <script async defer src="https://platform.twitter.com/widgets.js"></script>
-  <script async src="../js/app.js"></script>
 </body>
 
 </html>
