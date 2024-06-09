@@ -30,6 +30,9 @@ cleancss -o AI-Twins-ALIA/app.min.css AI-Twins-ALIA/app.css --source-map
 
 cleancss -o the-future-of-enterprise-ai/app.min.css the-future-of-enterprise-ai/app.css --source-map
 
+npx terser js/app.js -o js/app.min.js --compress --mangle
+
+
   <link rel="preload" href="../assets/flockrush-masthead-light-purple-image.svg" as="image">
   <!-- Preconnect to required origins -->
   <link rel="preconnect" href="https://www.google-analytics.com">
