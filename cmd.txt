@@ -29,3 +29,8 @@ cleancss -o why-choose-flockrush/app.min.css why-choose-flockrush/app.css --sour
 cleancss -o AI-Twins-ALIA/app.min.css AI-Twins-ALIA/app.css --source-map
 
 cleancss -o the-future-of-enterprise-ai/app.min.css the-future-of-enterprise-ai/app.css --source-map
+
+  <link rel="preload" href="../assets/flockrush-masthead-light-purple-image.svg" as="image">
+  <!-- Preconnect to required origins -->
+  <link rel="preconnect" href="https://www.google-analytics.com">
+  <link rel="preconnect" href="https://www.googletagmanager.com">
