@@ -1,2 +1,27 @@
 purgecss --css css/app.css --content empowering-your-business-with-smarter-ai-solutions/index.html --output empowering-your-business-with-smarter-ai-solutions/
+
+purgecss --css css/app.css --content about/index.html --output about/
+
+purgecss --css css/app.css --content lets-talk/index.html --output lets-talk/
+
+purgecss --css css/app.css --content privacy-policy/index.html --output privacy-policy/
+
+purgecss --css css/app.css --content why-choose-flockrush/index.html --output why-choose-flockrush/
+
+purgecss --css css/app.css --content AI-Twins-ALIA/index.html --output AI-Twins-ALIA/
+
+purgecss --css css/app.css --content the-future-of-enterprise-ai/index.html --output the-future-of-enterprise-ai/
+
 cleancss -o empowering-your-business-with-smarter-ai-solutions/app.min.css empowering-your-business-with-smarter-ai-solutions/app.css --source-map
+
+cleancss -o about/app.min.css about/app.css --source-map
+
+cleancss -o lets-talk/app.min.css lets-talk/app.css --source-map
+
+cleancss -o privacy-policy/app.min.css privacy-policy/app.css --source-map
+
+cleancss -o why-choose-flockrush/app.min.css why-choose-flockrush/app.css --source-map
+
+cleancss -o AI-Twins-ALIA/app.min.css AI-Twins-ALIA/app.css --source-map
+
+cleancss -o the-future-of-enterprise-ai/app.min.css the-future-of-enterprise-ai/app.css --source-map

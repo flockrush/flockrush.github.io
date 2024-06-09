@@ -19719,8 +19719,8 @@ html.is-leaving.is-animating.to-forward .steps-lists .path-steps .step.current:a
   display: block;
 }
 
-/* section-first-steps */
-.section-first-steps {}
+/* section-first-steps
+.section-first-steps {} */
 
 @media screen and (min-width:769px) {
   .section-first-steps {
@@ -19817,9 +19817,6 @@ html.is-leaving.is-animating.to-forward .steps-lists .path-steps .step.current:a
   max-width: 80rem;
   padding: 0 5rem 5rem 5rem;
 }
-
-.hero-header h2,
-.hero-header p {}
 
 .hero-header h2 {
   font-size: 5rem;
@@ -20190,41 +20187,41 @@ screen and (min-width: 40em) {
   }
 }
 
-.section-footer .column3.socialNav .facebook {
-  /*background-image:url("/assets/facebook.webp");*/
-}
+/* .section-footer .column3.socialNav .facebook {
+  /*background-image:url("/assets/facebook.webp");
+}*/
 
 .section-footer .column3.socialNav .facebook:hover {
   color: #3b5999;
 }
 
-.section-footer .column3.socialNav .twitter {
-  /*background-image:url("/assets/twitter.webp");*/
-}
+/*.section-footer .column3.socialNav .twitter {
+  background-image:url("/assets/twitter.webp");
+}*/
 
 .section-footer .column3.socialNav .twitter:hover {
   color: #00bdf4;
 }
 
-.section-footer .column3.socialNav .linkedIn {
-  /*background-image:url("/assets/linkedin.webp");*/
-}
+/*.section-footer .column3.socialNav .linkedIn {
+  /*background-image:url("/assets/linkedin.webp");
+}*/
 
 .section-footer .column3.socialNav .linkedIn:hover {
   color: #1385c3;
 }
 
-.section-footer .column3.socialNav .instagram {
-  /*background-image:url("/assets/instagram.webp");*/
-}
+/*.section-footer .column3.socialNav .instagram {
+  /*background-image:url("/assets/instagram.webp");
+}*/
 
 .section-footer .column3.socialNav .instagram:hover {
   color: #ffffff;
 }
 
-.section-footer .column3.socialNav .vimeo {
-  /*background-image:url("/assets/vimeo.webp");*/
-}
+/*.section-footer .column3.socialNav .vimeo {
+  /*background-image:url("/assets/vimeo.webp");
+}*/
 
 .section-footer .column3.socialNav .vimeo:hover {
   color: #1bb7ea;
@@ -20470,41 +20467,41 @@ screen and (min-width: 40em) {
   }
 }
 
-.section-footer .footer-container .column3.socialNav .facebook {
-  /*background-image:url("/assets/facebook.webp");*/
-}
+/*.section-footer .footer-container .column3.socialNav .facebook {
+  /*background-image:url("/assets/facebook.webp");
+}*/
 
 .section-footer .footer-container .column3.socialNav .facebook:hover {
   color: #3b5999;
 }
 
-.section-footer .footer-container .column3.socialNav .twitter {
-  /*background-image:url("/assets/twitter.webp");*/
-}
+/*.section-footer .footer-container .column3.socialNav .twitter {
+  background-image:url("/assets/twitter.webp");
+}*/
 
 .section-footer .footer-container .column3.socialNav .twitter:hover {
   color: #00bdf4;
 }
 
-.section-footer .footer-container .column3.socialNav .linkedIn {
-  /*background-image:url("/assets/linkedin.webp");*/
-}
+/*.section-footer .footer-container .column3.socialNav .linkedIn {
+  /*background-image:url("/assets/linkedin.webp");
+}*/
 
 .section-footer .footer-container .column3.socialNav .linkedIn:hover {
   color: #1385c3;
 }
 
-.section-footer .footer-container .column3.socialNav .instagram {
-  /*background-image:url("/assets/instagram.webp");*/
-}
+/*.section-footer .footer-container .column3.socialNav .instagram {
+  background-image:url("/assets/instagram.webp");
+}*/
 
 .section-footer .footer-container .column3.socialNav .instagram:hover {
   color: #ffffff;
 }
 
-.section-footer .footer-container .column3.socialNav .vimeo {
-  /*background-image:url("/assets/vimeo.webp");*/
-}
+/*.section-footer .footer-container .column3.socialNav .vimeo {
+  /*background-image:url("/assets/vimeo.webp");
+}*/
 
 .section-footer .footer-container .column3.socialNav .vimeo:hover {
   color: #1bb7ea;
@@ -22126,8 +22123,8 @@ body.flockrush-forks--full-height-right .flockrush-forks .tile .title {
   font-size: .9rem;
 }
 
-/* section-email-collect */
-.section-email-collect {}
+/* section-email-collect 
+.section-email-collect {}*/
 
 .section-email-collect .container {
   margin: 0 auto 2rem auto;
