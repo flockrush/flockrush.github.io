@@ -1,6 +1,0 @@
-/* Swup - CSS transitions between website pages.
- * @version https://github.com/gmrchk/swup/blob/d32c61eea1c9c14b811491de8db87155b7a58971/dist/swup.min.js
- * @link https://github.com/gmrchk/swup
- * @author Georgy Marchuk
- * @license The MIT License (MIT)
- */
