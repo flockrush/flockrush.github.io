@@ -978,7 +978,7 @@ img.ui.bordered.image {
 }
 
 #cookie-consent button {
-  background-color: #EB2328;
+  background-color: #AF1313;
   color: #fff;
   border: none;
   padding: 0.5rem 1rem;
@@ -20318,57 +20318,58 @@ screen and (min-width: 40em) {
 }
 
 .section-footer .subscribe-heading {
-    font-size: 3rem;
-    font-weight: 700;
-    color: #32ccff;
-    margin-top: 3rem;
+  font-size: 3rem;
+  font-weight: 700;
+  color: #32ccff;
+  margin-top: 3rem;
 }
 
 .section-footer .newsletter {
-    flex-direction: column;
-    color: #fff;
-    margin-top: 2.33rem;
+  flex-direction: column;
+  color: #fff;
+  margin-top: 2.33rem;
 }
 
 .section-footer .newsletter input[type='submit'] {
-    margin-top: 1.33rem;
-    margin-bottom: 3rem;
-    font-size: 1rem;
-    text-decoration: none;
-    color: #fff;
-    background-color: #EB2328;
-    padding: 1rem 2rem;
-    border-radius: 100000px;
-    border: none;
-    transition: all .3s;
+  margin-top: 1.33rem;
+  margin-bottom: 3rem;
+  font-size: 1rem;
+  text-decoration: none;
+  color: #fff;
+  background-color: #EB2328;
+  padding: 1rem 2rem;
+  border-radius: 100000px;
+  border: none;
+  transition: all .3s;
 }
 
 .section-footer .newsletter input[type='submit']:hover {
-    background-color: #33ccff;
-    color: #fff;
+  background-color: #33ccff;
+  color: #fff;
 }
 
-.section-footer .newsletter input[type='email'], .section-footer .newsletter textarea:focus {
-    margin-top: 2rem;
-    padding-bottom: 0.2rem;
-    outline: 0;
-    border: 0;
-    border-bottom: 1px solid #32ccff;
-    background: transparent;
-    width: 100%;
+.section-footer .newsletter input[type='email'],
+.section-footer .newsletter textarea:focus {
+  margin-top: 2rem;
+  padding-bottom: 0.2rem;
+  outline: 0;
+  border: 0;
+  border-bottom: 1px solid #32ccff;
+  background: transparent;
+  width: 100%;
 }
 
 .ui .cta input[type='submit'] {
-    margin-top: 1.33rem;
-    margin-bottom: 3rem;
-    font-size: 1rem;
-    text-decoration: none;
-    color: #fff;
-    background-color: #EB2328;
-    padding: 1rem 2rem;
-    border-radius: 100000px;
-    border: none;
-    transition: all .3s;
+  margin-top: 1.33rem;
+  margin-bottom: 3rem;
+  font-size: 1rem;
+  text-decoration: none;
+  color: #fff;
+  background-color: #EB2328;
+  padding: 1rem 2rem;
+  border-radius: 100000px;
+  border: none;
+  transition: all .3s;
 }
 
 .site-logo-footer a {

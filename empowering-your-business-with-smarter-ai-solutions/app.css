@@ -166,7 +166,7 @@ img.ui.image {
 }
 
 #cookie-consent button {
-  background-color: #EB2328;
+  background-color: #AF1313;
   color: #fff;
   border: none;
   padding: 0.5rem 1rem;
@@ -1304,8 +1304,6 @@ i.icon {
   font-weight: normal;
   text-decoration: inherit;
   text-align: center;
-  speak: none;
-  font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   -webkit-font-smoothing: antialiased;
   -webkit-backface-visibility: hidden;
@@ -2902,7 +2900,7 @@ a {
     top: 0;
     height: 6.25rem;
     width: 9.88rem;
-    relative: absolute;
+    position: absolute;
     margin: 0;
     left: 0;
     -ms-transform: rotate(0);
@@ -3260,7 +3258,6 @@ a {
 /* When right nav is closed, the contact info and form is moved to top nav */
 
 .nav-open {}
-
 
 /* navigation contact details */
 
@@ -3708,32 +3705,16 @@ a {
   }
 }
 
-.section-footer .column3.socialNav .facebook {
-  /*background-image:url("/assets/facebook.webp");*/
-}
-
 .section-footer .column3.socialNav .facebook:hover {
   color: #3b5999;
-}
-
-.section-footer .column3.socialNav .twitter {
-  /*background-image:url("/assets/twitter.webp");*/
 }
 
 .section-footer .column3.socialNav .twitter:hover {
   color: #00bdf4;
 }
 
-.section-footer .column3.socialNav .linkedIn {
-  /*background-image:url("/assets/linkedin.webp");*/
-}
-
 .section-footer .column3.socialNav .linkedIn:hover {
   color: #1385c3;
-}
-
-.section-footer .column3.socialNav .instagram {
-  /*background-image:url("/assets/instagram.webp");*/
 }
 
 .section-footer .column3.socialNav .instagram:hover {
