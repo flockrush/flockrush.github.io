@@ -48,6 +48,25 @@
   </script>
   <script async src='https://www.google-analytics.com/analytics.js'></script>
   <style>
+    .ui.primary.button.bubble-btn {
+      position: relative;
+      margin-top: 1.33rem;
+      margin-bottom: 3rem;
+      font-size: 1rem;
+      text-decoration: none;
+      background-color:
+        #EB2328;
+      padding: 1rem 2rem;
+      border-radius: 100000px;
+      border: none;
+      transition: all .3s;
+    }
+
+    .ui.primary.button.bubble-btn:hover {
+      background-color: #33ccff;
+      color: #fff;
+    }
+
     .ui.grid>.row>[class*="right aligned"].column.column {
       text-align: right;
       -ms-flex-item-align: inherit;
@@ -1457,9 +1476,7 @@
                     </div>
                   </div>
                   <div class="row">
-                    <div class="sixteen wide  column padding-0">
-                      <button class="ui primary button">Discover How</button>
-                    </div>
+                    <a href="../lets-talk/index.html" class="ui primary button bubble-btn">Discover How</a>
                   </div>
                 </div>
               </div>
@@ -1574,8 +1591,10 @@
                 <div class=" column" style="padding: 0rem!important;">
                   <img class="ui centered fluid image"
                     src="../assets/flockrush-transform-your-business-with-tailored-enterprise-ai-olutions.webp"
-                    alt="Transform Your Business with Tailored Enterprise AI Solutions" style="margin-bottom: 0rem;">
+                    alt="Transform Your Business with Tailored Enterprise AI Solutions" loading="lazy"
+                    style="margin-bottom: 0rem;">
                 </div>
+
                 <div class="  column">
                   <h2
                     style="    padding-top: 4.37rem;     line-height: 2.33rem;     padding-left: 1rem;     padding-right: 3rem;;">
