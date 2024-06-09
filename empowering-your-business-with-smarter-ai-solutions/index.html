@@ -87,6 +87,18 @@
       background-color: #3cf;
     }
 
+    #masthead {
+      background: url('../assets/flockrush-masthead-blue-image.webp') no-repeat center center;
+      background-size: cover;
+    }
+
+    @media (max-width: 768px) {
+      #masthead {
+        background: url('../assets/flockrush-masthead-blue-image-mobile.webp') no-repeat center center;
+        background-size: cover;
+      }
+    }
+
     .ui.grid {
       display: -webkit-box;
       display: -ms-flexbox;
@@ -1235,8 +1247,7 @@
       <article id="path-main-content" class="main-content">
         <div class="a-slide sections">
           <div class="section-header section-0 ">
-            <div class="ui segment basic padding-left-0"
-              style=" background-repeat:no-repeat;background-size:100%;background-image:url(../assets/flockrush-masthead-blue-image.webp);">
+            <div class="ui segment basic padding-left-0" id="masthead">
               <div class="ui text container" style="margin-left:0!important;padding-top:30%;">
                 <div class="ui left aligned grid container" style="margin-left:0!important;background-color:#fff;">
                   <div class="right aligned row padding-top-bottom-0">
@@ -1450,7 +1461,8 @@
                 </div>
                 <div class="navigation-contact-seperator"> </div>
                 <div class="navigation-contact-email">
-                  <div class="img-wrapper-contact"> <img src="../assets/flockrush-email-icon-red.webp" alt="Email icon">
+                  <div class="img-wrapper-contact">
+                    <img src="../assets/flockrush-email-icon-red.webp" alt="Email icon">
                   </div><a href="mailto:hello@flockrush.com">hello@flockrush.com</a>
                 </div>
               </div>
@@ -1579,8 +1591,8 @@
             </div>
             <div class="navigation-contact-seperator"> </div>
             <div class="navigation-contact-email">
-              <div class="img-wrapper-contact"> <img src="../assets/flockrush-email-icon-red.webp"> </div><a
-                href="mailto:hello@flockrush.com">hello@flockrush.com</a>
+              <div class="img-wrapper-contact"> <img src="../assets/flockrush-email-icon-red.webp" alt="Email icon">
+              </div><a href="mailto:hello@flockrush.com">hello@flockrush.com</a>
             </div>
           </div>
           <div class="form">
