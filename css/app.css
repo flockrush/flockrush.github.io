@@ -18773,7 +18773,7 @@ a {
   background-repeat: no-repeat;
   background-size: 1rem;
   padding: 4px;
-  background-image: url("../assets/footer_flockrush.png");
+  background-image: url("../assets/footer_flockrush.webp");
 }
 
 @media screen and (min-width:321px) {
@@ -20185,7 +20185,7 @@ screen and (min-width: 40em) {
 }
 
 .section-footer .column3.socialNav .facebook {
-  /*background-image:url("/assets/facebook.png");*/
+  /*background-image:url("/assets/facebook.webp");*/
 }
 
 .section-footer .column3.socialNav .facebook:hover {
@@ -20193,7 +20193,7 @@ screen and (min-width: 40em) {
 }
 
 .section-footer .column3.socialNav .twitter {
-  /*background-image:url("/assets/twitter.png");*/
+  /*background-image:url("/assets/twitter.webp");*/
 }
 
 .section-footer .column3.socialNav .twitter:hover {
@@ -20201,7 +20201,7 @@ screen and (min-width: 40em) {
 }
 
 .section-footer .column3.socialNav .linkedIn {
-  /*background-image:url("/assets/linkedin.png");*/
+  /*background-image:url("/assets/linkedin.webp");*/
 }
 
 .section-footer .column3.socialNav .linkedIn:hover {
@@ -20209,7 +20209,7 @@ screen and (min-width: 40em) {
 }
 
 .section-footer .column3.socialNav .instagram {
-  /*background-image:url("/assets/instagram.png");*/
+  /*background-image:url("/assets/instagram.webp");*/
 }
 
 .section-footer .column3.socialNav .instagram:hover {
@@ -20217,7 +20217,7 @@ screen and (min-width: 40em) {
 }
 
 .section-footer .column3.socialNav .vimeo {
-  /*background-image:url("/assets/vimeo.png");*/
+  /*background-image:url("/assets/vimeo.webp");*/
 }
 
 .section-footer .column3.socialNav .vimeo:hover {
@@ -20225,7 +20225,7 @@ screen and (min-width: 40em) {
 }
 
 .section-footer .column3.socialNav .flockrush {
-  background-image: url("../assets/footer_flockrush.png");
+  background-image: url("../assets/footer_flockrush.webp");
   background-color: transparent;
   opacity: 0.3;
 }
@@ -20464,7 +20464,7 @@ screen and (min-width: 40em) {
 }
 
 .section-footer .footer-container .column3.socialNav .facebook {
-  /*background-image:url("/assets/facebook.png");*/
+  /*background-image:url("/assets/facebook.webp");*/
 }
 
 .section-footer .footer-container .column3.socialNav .facebook:hover {
@@ -20472,7 +20472,7 @@ screen and (min-width: 40em) {
 }
 
 .section-footer .footer-container .column3.socialNav .twitter {
-  /*background-image:url("/assets/twitter.png");*/
+  /*background-image:url("/assets/twitter.webp");*/
 }
 
 .section-footer .footer-container .column3.socialNav .twitter:hover {
@@ -20480,7 +20480,7 @@ screen and (min-width: 40em) {
 }
 
 .section-footer .footer-container .column3.socialNav .linkedIn {
-  /*background-image:url("/assets/linkedin.png");*/
+  /*background-image:url("/assets/linkedin.webp");*/
 }
 
 .section-footer .footer-container .column3.socialNav .linkedIn:hover {
@@ -20488,7 +20488,7 @@ screen and (min-width: 40em) {
 }
 
 .section-footer .footer-container .column3.socialNav .instagram {
-  /*background-image:url("/assets/instagram.png");*/
+  /*background-image:url("/assets/instagram.webp");*/
 }
 
 .section-footer .footer-container .column3.socialNav .instagram:hover {
@@ -20496,7 +20496,7 @@ screen and (min-width: 40em) {
 }
 
 .section-footer .footer-container .column3.socialNav .vimeo {
-  /*background-image:url("/assets/vimeo.png");*/
+  /*background-image:url("/assets/vimeo.webp");*/
 }
 
 .section-footer .footer-container .column3.socialNav .vimeo:hover {
@@ -20504,7 +20504,7 @@ screen and (min-width: 40em) {
 }
 
 .section-footer .footer-container .column3.socialNav .flockrush {
-  background-image: url("../assets/footer_flockrush.png");
+  background-image: url("../assets/footer_flockrush.webp");
   background-color: transparent;
   opacity: 0.3;
 }
@@ -21226,7 +21226,7 @@ html.is-leaving.to-backward .a-slide {
   padding-left: 1em;
 }
 
-/* li ul bullet formating .section-paragraph li::before{content:url("/assets/bullet-style-img.png"); */
+/* li ul bullet formating .section-paragraph li::before{content:url("/assets/bullet-style-img.webp"); */
 
 .section-paragraph ul,
 .section-paragraph ol {
@@ -21252,7 +21252,7 @@ html.is-leaving.to-backward .a-slide {
 }
 
 .section-paragraph li::after {
-  content: url("https://www.flockrush.com/assets/bullet-styl-img.png");
+  content: url("https://www.flockrush.com/assets/bullet-styl-img.webp");
   display: inline-block;
   margin-left: -4rem;
   margin-right: 0rem;

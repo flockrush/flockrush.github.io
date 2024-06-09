@@ -18721,7 +18721,7 @@ a {
   background-repeat: no-repeat;
   background-size: 1rem;
   padding: 4px;
-  background-image: url(../assets/footer_flockrush.png)
+  background-image: url(../assets/footer_flockrush.webp)
 }
 
 @media screen and (min-width:321px) {
@@ -20111,7 +20111,7 @@ screen and (min-width:40em) {
 }
 
 .section-footer .column3.socialNav .flockrush {
-  background-image: url(../assets/footer_flockrush.png);
+  background-image: url(../assets/footer_flockrush.webp);
   background-color: #fff0;
   opacity: .3
 }
@@ -20315,7 +20315,7 @@ screen and (min-width:40em) {
 }
 
 .section-footer .footer-container .column3.socialNav .flockrush {
-  background-image: url(../assets/footer_flockrush.png);
+  background-image: url(../assets/footer_flockrush.webp);
   background-color: #fff0;
   opacity: .3
 }
@@ -21047,7 +21047,7 @@ html.is-leaving.to-backward .a-slide {
 }
 
 .section-paragraph li::after {
-  content: url(https://www.flockrush.com/assets/bullet-styl-img.png);
+  content: url(https://www.flockrush.com/assets/bullet-styl-img.webp);
   display: inline-block;
   margin-left: -4rem;
   margin-right: 0rem;

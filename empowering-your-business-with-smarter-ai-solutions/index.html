@@ -13,11 +13,11 @@
   <link rel="canonical"
     href="https://www.flockrush.com/empowering-your-business-with-smarter-ai-solutions/index.html" />
 
-  <link rel="apple-touch-icon" sizes="180x180" href="../assets/apple-touch-icon.png">
-  <link rel="icon" type="image/png" sizes="32x32" href="../assets/favicon-32x32.png">
-  <link rel="icon" type="image/png" sizes="16x16" href="../assets/favicon-16x16.png">
-  <link rel="icon" type="image/png" sizes="192x192" href="../assets/android-chrome-192x192.png" />
-  <link rel="icon" type="image/png" sizes="512x512" href="../assets/android-chrome-512x512.png" />
+  <link rel="apple-touch-icon" sizes="180x180" href="../assets/apple-touch-icon.webp">
+  <link rel="icon" type="image/png" sizes="32x32" href="../assets/favicon-32x32.webp">
+  <link rel="icon" type="image/png" sizes="16x16" href="../assets/favicon-16x16.webp">
+  <link rel="icon" type="image/png" sizes="192x192" href="../assets/android-chrome-192x192.webp" />
+  <link rel="icon" type="image/png" sizes="512x512" href="../assets/android-chrome-512x512.webp" />
   <link rel="manifest" href="../assets/site.webmanifest">
   <meta name="msapplication-TileColor" content="#da532c">
   <meta name="theme-color" content="#ffffff">
@@ -27,14 +27,14 @@
   <meta property="og:title" content="Empowering Your Business with Smarter AI Solutions" />
   <meta property="og:description"
     content="Flockrush empowers businesses with AI solutions to drive efficiency, innovation, and strategic growth. Partnering with top enterprises since 2006." />
-  <meta property="og:image" content="../assets/flocrush-masthead-icon.png" />
+  <meta property="og:image" content="../assets/flocrush-masthead-icon.webp" />
   <meta property="og:image:width" content="512" />
   <meta property="og:image:height" content="512" />
   <meta name="twitter:card" content="summary" />
   <meta name="twitter:title" content="Empowering Your Business with Smarter AI Solutions" />
   <meta name="twitter:description"
     content="Flockrush empowers businesses with AI solutions to drive efficiency, innovation, and strategic growth." />
-  <meta property="twitter:image" content="../assets/flocrush-masthead-icon.png" />
+  <meta property="twitter:image" content="../assets/flocrush-masthead-icon.webp" />
   <meta property="twitter:image:width" content="512" />
   <meta property="twitter:image:height" content="512" />
 
@@ -48,7 +48,233 @@
   </script>
   <script async src='https://www.google-analytics.com/analytics.js'></script>
   <style>
-    /* Cookie consent banner styles */
+    .ui.grid>.row>[class*="right aligned"].column.column {
+      text-align: right;
+      -ms-flex-item-align: inherit;
+      align-self: inherit
+    }
+
+    @font-face {
+      font-family: Icons;
+      src: url('https://www.flockrush.com/fonts/icons.eot');
+      src: url('https://www.flockrush.com/fonts/icons.eot?#iefix') format('embedded-opentype'), url('https://www.flockrush.com/fonts/icons.woff2') format('woff2'), url('https://www.flockrush.com/fonts/icons.woff') format('woff'), url('https://www.flockrush.com/fonts/icons.ttf') format('truetype'), url('https://www.flockrush.com/fonts/icons.svg#icons') format('svg');
+      font-style: normal;
+      font-weight: 400;
+      font-display: swap;
+      font-variant: normal;
+      text-decoration: inherit;
+      text-transform: none
+    }
+
+    @font-face {
+      font-family: brand-icons;
+      src: url('https://www.flockrush.com/fonts/brand-icons.eot');
+      src: url('https://www.flockrush.com/fonts/brand-icons.eot?#iefix') format('embedded-opentype'), url('https://www.flockrush.com/fonts/brand-icons.woff2') format('woff2'), url('https://www.flockrush.com/fonts/brand-icons.woff') format('woff'), url('https://www.flockrush.com/fonts/brand-icons.ttf') format('truetype'), url('https://www.flockrush.com/fonts/brand-icons.svg#icons') format('svg');
+      font-style: normal;
+      font-display: swap;
+      font-weight: 400;
+      font-variant: normal;
+      font-display: swap;
+      text-decoration: inherit;
+      text-transform: none
+    }
+
+    @font-face {
+      font-family: 'Avenir Next LT Pro';
+      src: url('https://www.flockrush.com/fonts/AvenirNextLTPro-Bold.woff2') format('woff2'), url('https://www.flockrush.com/fonts/AvenirNextLTPro-Bold.woff') format('woff');
+      font-weight: 700;
+      font-style: normal;
+      font-display: swap
+    }
+
+    @font-face {
+      font-family: 'Avenir Next LT Pro';
+      src: url('https://www.flockrush.com/fonts/AvenirNextLTPro-Medium.woff2') format('woff2'), url('https://www.flockrush.com/fonts/AvenirNextLTPro-Medium.woff') format('woff');
+      font-weight: medium;
+      font-style: normal;
+      font-display: swap
+    }
+
+    @font-face {
+      font-family: 'Avenir Next LT Pro';
+      src: url('https://www.flockrush.com/fonts/AvenirNextLTPro-Regular.woff2') format('woff2'), url('https://www.flockrush.com/fonts/AvenirNextLTPro-Regular.woff') format('woff');
+      font-weight: 400;
+      font-style: normal;
+      font-display: swap
+    }
+
+    body .top-menu {
+      background-color: #271839
+    }
+
+    body .site .content-title .title {
+      color: #fff
+    }
+
+    .ui.grid>.row>[class*="eight wide"].column {
+      width: 50% !important
+    }
+
+    .ui[class*="center aligned"].grid>.row>.column {
+      text-align: center;
+      -ms-flex-item-align: inherit;
+      align-self: inherit
+    }
+
+    .ui.grid>.row>[class*="right aligned"].column.column,
+    .ui.grid>[class*="right aligned"].row>.column {
+      text-align: right;
+      -ms-flex-item-align: inherit;
+      align-self: inherit
+    }
+
+    @font-face {
+      font-family: Icons;
+      src: url('https://www.flockrush.com/fonts/icons.eot');
+      src: url('https://www.flockrush.com/fonts/icons.eot?') format('embedded-opentype'), url('https://www.flockrush.com/fonts/icons.woff2') format('woff2'), url('https://www.flockrush.com/fonts/icons.woff') format('woff'), url('https://www.flockrush.com/fonts/icons.ttf') format('truetype'), url('https://www.flockrush.com/fonts/icons.svg') format('svg');
+      font-style: normal;
+      font-weight: 400;
+      font-display: swap;
+      font-variant: normal;
+      text-decoration: inherit;
+      text-transform: none
+    }
+
+    @font-face {
+      font-family: brand-icons;
+      src: url('https://www.flockrush.com/fonts/brand-icons.eot');
+      src: url('https://www.flockrush.com/fonts/brand-icons.eot?') format('embedded-opentype'), url('https://www.flockrush.com/fonts/brand-icons.woff2') format('woff2'), url('https://www.flockrush.com/fonts/brand-icons.woff') format('woff'), url('https://www.flockrush.com/fonts/brand-icons.ttf') format('truetype'), url('https://www.flockrush.com/fonts/brand-icons.svg') format('svg');
+      font-style: normal;
+      font-weight: 400;
+      font-display: swap;
+      font-variant: normal;
+      text-decoration: inherit;
+      text-transform: none
+    }
+
+    .ui.grid>.row>[class*="left aligned"].column.column {
+      text-align: left;
+      -ms-flex-item-align: inherit;
+      align-self: inherit
+    }
+
+    @media only screen and (max-width:767px) {
+      .ui.container {
+        width: auto !important;
+        margin-left: 1em !important;
+        margin-right: 1em !important
+      }
+    }
+
+    @media only screen and (min-width:768px) and (max-width:991px) {
+      .ui.container {
+        width: 723px;
+        margin-left: auto !important;
+        margin-right: auto !important
+      }
+    }
+
+    @media only screen and (min-width:992px) and (max-width:1199px) {
+      .ui.container {
+        width: 933px;
+        margin-left: auto !important;
+        margin-right: auto !important
+      }
+    }
+
+    @media only screen and (min-width:1200px) {
+      .ui.container {
+        width: 1127px;
+        margin-left: auto !important;
+        margin-right: auto !important
+      }
+    }
+
+    input {
+      color: inherit;
+      font: inherit;
+      margin: 0
+    }
+
+    input[type=submit] {
+      -webkit-appearance: button
+    }
+
+    input::-moz-focus-inner {
+      border: 0;
+      padding: 0
+    }
+
+    .top-menu {
+      position: fixed;
+      display: flex;
+      top: 0;
+      height: 4rem;
+      width: 100vw;
+      background-color: #120029 !important;
+      align-items: center;
+      z-index: 500
+    }
+
+    .section-footer .footer-tagline {
+      margin: 0;
+      font-size: 18px;
+      letter-spacing: 0;
+      line-height: 32px
+    }
+
+    body .steps-lists,
+    body .top-menu {
+      background-color: #271839
+    }
+
+    body .top-menu .site-logo a {
+      background-image: url('https://www.flockrush.com/assets/flockrush-logo-white.svg')
+    }
+
+    body .steps-lists .path-steps .step {
+      border-bottom: 1px solid #eb2328;
+      border-left: 4px solid #eb2328
+    }
+
+    body .steps-lists .path-steps .step:after {
+      background-color: #eb2328
+    }
+
+    body .site .content-title .title,
+    body .steps-lists .path-steps .step h2 {
+      color: #fff
+    }
+
+    .ui.image {
+      position: relative;
+      display: inline-block;
+      vertical-align: middle;
+      max-width: 100%;
+      background-color: transparent
+    }
+
+    img.ui.image {
+      display: block
+    }
+
+    .ui.floated.image {
+      float: left;
+      margin-right: 1em;
+      margin-bottom: 1em
+    }
+
+    .ui.right.floated.image {
+      float: right;
+      margin-right: 0;
+      margin-bottom: 1em;
+      margin-left: 1em
+    }
+
+    .ui.floated.image:last-child {
+      margin-bottom: 0
+    }
+
     #cookie-consent {
       position: fixed;
       bottom: 0;
@@ -57,26 +283,21 @@
       color: #fff;
       text-align: center;
       padding: 1rem;
-      z-index: 1000;
+      z-index: 1000
     }
 
     #cookie-consent a {
-      color: #EB2328;
-      text-decoration: underline;
+      color: #eb2328;
+      text-decoration: underline
     }
 
     #cookie-consent button {
-      background-color: #EB2328;
+      background-color: #eb2328;
       color: #fff;
       border: none;
-      padding: 0.5rem 1rem;
-      cursor: pointer;
+      padding: .5rem 1rem;
       font-size: 1rem;
-      margin-left: 1rem;
-    }
-
-    #cookie-consent button:hover {
-      background-color: #d60c40;
+      margin-left: 1rem
     }
 
     .ui.grid {
@@ -144,8 +365,20 @@
       margin-bottom: 0
     }
 
+    .ui.grid>.row>.column>img {
+      max-width: 100%
+    }
+
     .ui.grid>.row>.column:only-child {
       width: 100%
+    }
+
+    .ui.grid>.row>[class*="one wide"].column {
+      width: 6.25% !important
+    }
+
+    .ui.grid>.row>[class*="two wide"].column {
+      width: 12.5% !important
     }
 
     .ui.grid>.row>[class*="five wide"].column {
@@ -156,6 +389,20 @@
       width: 43.75% !important
     }
 
+    .ui.grid>.row>[class*="twelve wide"].column {
+      width: 75% !important
+    }
+
+    .ui.grid>.row>[class*="sixteen wide"].column {
+      width: 100% !important
+    }
+
+    .ui.grid>.row>.centered.column {
+      display: block;
+      margin-left: auto;
+      margin-right: auto
+    }
+
     .ui.grid [class*="left floated"].column {
       margin-right: auto
     }
@@ -164,13 +411,27 @@
       margin-left: auto
     }
 
-    .ui.grid>.row>[class*="left aligned"].column.column {
+    .ui.grid>.row>[class*="left aligned"].column.column,
+    .ui[class*="left aligned"].grid>.row>.column {
       text-align: left;
       -ms-flex-item-align: inherit;
       align-self: inherit
     }
 
-    .ui.grid>.row>[class*="right aligned"].column.column {
+    .ui.grid>[class*="center aligned"].row>.column,
+    .ui[class*="center aligned"].grid>.row>.column {
+      text-align: center;
+      -ms-flex-item-align: inherit;
+      align-self: inherit
+    }
+
+    .ui[class*="center aligned"].grid {
+      -webkit-box-pack: center;
+      -ms-flex-pack: center;
+      justify-content: center
+    }
+
+    .ui.grid>[class*="right aligned"].row>.column {
       text-align: right;
       -ms-flex-item-align: inherit;
       align-self: inherit
@@ -186,10 +447,10 @@
       .ui.stackable.grid>.row>.column,
       .ui.stackable.grid>.row>.wide.column {
         width: 100% !important;
-        margin: 0 0 !important;
+        margin: 0 !important;
         -webkit-box-shadow: none !important;
         box-shadow: none !important;
-        padding: 1rem 1rem !important
+        padding: 1rem !important
       }
 
       .ui.stackable.grid:not(.vertically)>.row {
@@ -204,7 +465,7 @@
       -webkit-box-shadow: 0 1px 2px 0 rgba(34, 36, 38, .15);
       box-shadow: 0 1px 2px 0 rgba(34, 36, 38, .15);
       margin: 1rem 0;
-      padding: 1em 1em;
+      padding: 1em;
       border-radius: .28571429rem;
       border: 1px solid rgba(34, 36, 38, .15)
     }
@@ -223,7 +484,7 @@
     }
 
     .ui.basic.segment {
-      background: none transparent;
+      background: 0 0;
       -webkit-box-shadow: none;
       box-shadow: none;
       border: none;
@@ -245,6 +506,10 @@
         margin-left: 1em !important;
         margin-right: 1em !important
       }
+
+      .ui.grid.container {
+        width: auto !important
+      }
     }
 
     @media only screen and (min-width:768px) and (max-width:991px) {
@@ -252,6 +517,10 @@
         width: 723px;
         margin-left: auto !important;
         margin-right: auto !important
+      }
+
+      .ui.grid.container {
+        width: calc(723px + 2rem) !important
       }
     }
 
@@ -261,6 +530,10 @@
         margin-left: auto !important;
         margin-right: auto !important
       }
+
+      .ui.grid.container {
+        width: calc(933px + 2rem) !important
+      }
     }
 
     @media only screen and (min-width:1200px) {
@@ -269,18 +542,28 @@
         margin-left: auto !important;
         margin-right: auto !important
       }
+
+      .ui.grid.container {
+        width: calc(1127px + 2rem) !important
+      }
     }
 
-    @font-face {
-      font-family: Icons;
-      src: url(../fonts/icons.eot);
-      src: url(../fonts/icons.eot?#iefix) format('embedded-opentype'), url(../fonts/icons.woff2) format('woff2'), url(../fonts/icons.woff) format('woff'), url(../fonts/icons.ttf) format('truetype'), url(../fonts/icons.svg#icons) format('svg');
-      font-style: normal;
-      font-weight: normal;
-      font-display: swap;
-      font-variant: normal;
-      text-decoration: inherit;
-      text-transform: none
+    .ui.text.container {
+      font-family: "Avenir Next LT Pro", 'Helvetica Neue', Arial, Helvetica, sans-serif;
+      max-width: 700px !important;
+      line-height: 1.5
+    }
+
+    .ui.text.container {
+      font-size: 1.14285714rem
+    }
+
+    .ui[class*="left aligned"].container {
+      text-align: left
+    }
+
+    .ui[class*="center aligned"].container {
+      text-align: center
     }
 
     i.icon {
@@ -291,7 +574,7 @@
       height: 1em;
       font-family: Icons;
       font-style: normal;
-      font-weight: normal;
+      font-weight: 400;
       text-decoration: inherit;
       text-align: center;
       speak: none;
@@ -310,10 +593,6 @@
       font-size: 1em
     }
 
-    i.icon.angle.down:before {
-      content: "\f107"
-    }
-
     i.icon.caret.right:before {
       content: "\f0da"
     }
@@ -330,52 +609,15 @@
       content: "\f099"
     }
 
-    @font-face {
-      font-family: brand-icons;
-      src: url(../fonts/brand-icons.eot);
-      src: url(../fonts/brand-icons.eot?#iefix) format('embedded-opentype'), url(../fonts/brand-icons.woff2) format('woff2'), url(../fonts/brand-icons.woff) format('woff'), url(../fonts/brand-icons.ttf) format('truetype'), url(../fonts/brand-icons.svg#icons) format('svg');
-      font-style: normal;
-      font-display: swap;
-      font-weight: normal;
-      font-variant: normal;
-      font-display: swap;
-      text-decoration: inherit;
-      text-transform: none
-    }
-
     i.icon.facebook,
     i.icon.linkedin,
     i.icon.twitter {
       font-family: brand-icons
     }
 
-    @font-face {
-      font-family: 'Avenir Next LT Pro';
-      src: url('../fonts/AvenirNextLTPro-Bold.woff2') format('woff2'), url('../fonts/AvenirNextLTPro-Bold.woff') format('woff');
-      font-weight: bold;
-      font-style: normal;
-      font-display: swap
-    }
-
-    @font-face {
-      font-family: 'Avenir Next LT Pro';
-      src: url('../fonts/AvenirNextLTPro-Medium.woff2') format('woff2'), url('../fonts/AvenirNextLTPro-Medium.woff') format('woff');
-      font-weight: medium;
-      font-style: normal;
-      font-display: swap
-    }
-
-    @font-face {
-      font-family: 'Avenir Next LT Pro';
-      src: url('../fonts/AvenirNextLTPro-Regular.woff2') format('woff2'), url('../fonts/AvenirNextLTPro-Regular.woff') format('woff');
-      font-weight: normal;
-      font-style: normal;
-      font-display: swap
-    }
-
     html {
       font-family: "Avenir Next LT Pro", Helvetica, "Helvetica Neue", Helvetica, Arial, sans-serif;
-      font-weight: normal;
+      font-weight: 400;
       font-size: 16px;
       -ms-text-size-adjust: 100%;
       -webkit-text-size-adjust: 100%
@@ -386,8 +628,8 @@
       color: #120029
     }
 
-    html,
-    body {
+    body,
+    html {
       -webkit-font-smoothing: antialiased;
       -moz-osx-font-smoothing: grayscale
     }
@@ -403,13 +645,13 @@
     }
 
     strong {
-      font-weight: bold
+      font-weight: 700
     }
 
     h1 {
       font-size: 1.56rem;
-      margin: 0.67rem 0;
-      font-weight: bold
+      margin: .67rem 0;
+      font-weight: 700
     }
 
     @media screen and (min-width:769px) {
@@ -422,7 +664,7 @@
       font-size: 1.73rem;
       letter-spacing: 0;
       line-height: 1.89rem;
-      font-weight: bold
+      font-weight: 700
     }
 
     @media screen and (min-width:769px) {
@@ -442,16 +684,27 @@
       border: 0
     }
 
+    button,
     input {
       color: inherit;
       font: inherit;
       margin: 0
     }
 
-    input[type="submit"] {
+    button {
+      overflow: visible
+    }
+
+    button {
+      text-transform: none
+    }
+
+    button,
+    input[type=submit] {
       -webkit-appearance: button
     }
 
+    button::-moz-focus-inner,
     input::-moz-focus-inner {
       border: 0;
       padding: 0
@@ -466,13 +719,39 @@
       color: inherit
     }
 
+    .ux.header {
+      font-size: 1.1rem;
+      font-weight: 700;
+      text-align: center;
+      color: #fff;
+      background-color: #eb2328;
+      padding-top: 150%
+    }
+
     .padding-0 {
-      padding: 0rem !important
+      padding: 0 !important
+    }
+
+    .padding-left-0 {
+      padding-left: 0 !important
+    }
+
+    .margin-right-0 {
+      margin-right: 0 !important
+    }
+
+    .padding-left-10per {
+      padding-left: 1rem !important
     }
 
     .padding-top-bottom-0 {
-      padding-top: 0rem !important;
-      padding-bottom: 0rem !important
+      padding-top: 0 !important;
+      padding-bottom: 0 !important
+    }
+
+    .padding-top-right-0 {
+      padding-top: 0 !important;
+      padding-bottom: 0 !important
     }
 
     .msg-block {
@@ -480,6 +759,10 @@
       padding-bottom: 8.63rem !important;
       background-color: #120029;
       color: #fff
+    }
+
+    .padding-top-0 {
+      padding-top: 0 !important
     }
 
     @media only screen and (max-width:991px) and (min-width:768px) {
@@ -499,9 +782,17 @@
     }
 
     @media screen and (min-width:769px) {
+      .ux.header {
+        font-size: 2.063rem
+      }
+
+      .padding-left-10per {
+        padding-left: 10% !important
+      }
+
       .site .main-content {
         flex-direction: row;
-        padding-top: 0rem
+        padding-top: 0
       }
 
       .site .main-content .sections {
@@ -511,7 +802,7 @@
 
       .site .main-content .path-steps-menu {
         width: 14.75rem;
-        margin-top: 0rem;
+        margin-top: 0;
         margin-right: 1.5rem;
         margin-left: 1.5rem
       }
@@ -523,7 +814,6 @@
       top: 0;
       height: 4rem;
       width: 100vw;
-      background-color: #120029 !important;
       align-items: center;
       z-index: 500
     }
@@ -533,27 +823,12 @@
       box-shadow: none;
       content: "";
       height: 5px;
-      left: 0px;
+      left: 0;
       opacity: 1;
       position: absolute;
-      right: 0px;
+      right: 0;
       width: 100%;
       z-index: 2050
-    }
-
-    .top-menu .toggle-sidebar {
-      margin: 0;
-      padding: 0 1rem;
-      line-height: 0;
-      text-align: center
-    }
-
-    .top-menu .toggle-sidebar span {
-      display: block;
-      width: 1.2rem;
-      height: 1rem;
-      background-position: center;
-      background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 448 512'%3E%3Cpath style='fill:%239d9d9d' d='M16 132h416c8.837 0 16-7.163 16-16V76c0-8.837-7.163-16-16-16H16C7.163 60 0 67.163 0 76v40c0 8.837 7.163 16 16 16zm0 160h416c8.837 0 16-7.163 16-16v-40c0-8.837-7.163-16-16-16H16c-8.837 0-16 7.163-16 16v40c0 8.837 7.163 16 16 16zm0 160h416c8.837 0 16-7.163 16-16v-40c0-8.837-7.163-16-16-16H16c-8.837 0-16 7.163-16 16v40c0 8.837 7.163 16 16 16z'/%3E%3C/svg%3E")
     }
 
     .top-menu .site-logo {
@@ -603,7 +878,7 @@
       background: #271839;
       color: #fff;
       text-align: center;
-      padding: 0rem 0 0rem 0;
+      padding: 0;
       width: 3.0625rem;
       margin-right: 0;
       top: 26px;
@@ -612,12 +887,12 @@
     }
 
     .ux.info.icon {
-      padding: .9rem 0.2rem .6rem 0rem
+      padding: .9rem .2rem .6rem 0
     }
 
     .top-menu .overlay-up-next-nav {
-      background: #EB2328;
-      padding: 1.5rem 0 1.3rem 0;
+      background: #eb2328;
+      padding: 1.5rem 0 1.3rem;
       width: 6.12rem
     }
 
@@ -651,8 +926,8 @@
     }
 
     .overlay-contact-form .close .lines,
-    .overlay-contact-form .close .lines:before,
-    .overlay-contact-form .close .lines:after {
+    .overlay-contact-form .close .lines:after,
+    .overlay-contact-form .close .lines:before {
       display: inline-block;
       width: 100%;
       height: 4px;
@@ -662,11 +937,11 @@
 
     .overlay-contact-form .close .lines {
       position: relative;
-      background: transparent
+      background: 0 0
     }
 
-    .overlay-contact-form .close .lines:before,
-    .overlay-contact-form .close .lines:after {
+    .overlay-contact-form .close .lines:after,
+    .overlay-contact-form .close .lines:before {
       content: '';
       position: absolute;
       background-color: #fff;
@@ -698,9 +973,14 @@
       overflow: auto
     }
 
+    .overlay-contact-form .overlay-inner-content .contact-info {
+      padding: 0 1.5rem;
+      padding-bottom: .5rem
+    }
+
     .overlay-contact-form .overlay-inner-content .header {
       font-size: 1.25rem;
-      font-weight: bold;
+      font-weight: 700;
       padding-top: 1.2rem
     }
 
@@ -715,24 +995,24 @@
 
     .overlay-contact-form .overlay-inner-content input {
       outline: 0;
-      padding-bottom: 0.2rem;
-      border: 1px solid #4A4A4A;
+      padding-bottom: .2rem;
+      border: 1px solid #4a4a4a;
       border-radius: .2857rem;
-      background: transparent
+      background: 0 0
     }
 
     .overlay-contact-form .overlay-inner-content input {
-      padding: 0.6rem 0.5rem .5rem .2rem;
-      margin-top: 0.6rem
+      padding: .6rem .5rem .5rem .2rem;
+      margin-top: .6rem
     }
 
-    .overlay-contact-form .overlay-inner-content input[type='submit'] {
+    .overlay-contact-form .overlay-inner-content input[type=submit] {
       margin-top: 1rem;
-      background: #F5A623;
+      background: #f5a623;
       border-radius: .2857rem;
       border: 0;
       font-size: 1.25rem;
-      font-weight: bold;
+      font-weight: 700;
       padding: 1rem
     }
 
@@ -753,6 +1033,10 @@
         padding-left: 2rem;
         border-left: 2px solid #4a4a4a
       }
+
+      .top-menu .content-title {
+        font-size: 2rem
+      }
     }
 
     .site .top-menu .content-title {
@@ -770,14 +1054,18 @@
     }
 
     @media screen and (min-width:769px) {
-      .top-menu .content-title {
-        font-size: 2rem
+      .display-mobile-only {
+        display: none
       }
     }
 
-    @media screen and (min-width:769px) {
-      .display-mobile-only {
+    @media screen and (max-width:769px) {
+      .display-desktop-only {
         display: none
+      }
+
+      .copyright {
+        float: left
       }
     }
 
@@ -798,7 +1086,7 @@
       transform: translate(0, 0);
       transform: translate3d(0, 0, 0);
       will-change: position, transform;
-      padding: 0rem .5rem 0rem .5rem;
+      padding: 0 .5rem;
       box-sizing: border-box
     }
 
@@ -806,32 +1094,57 @@
       display: block
     }
 
-    .path-steps-menu .banner {
-      width: 100%
-    }
-
-    .path-steps-menu .banner img {
-      width: 100%
-    }
-
     .steps-header {
       font-size: 1.313rem;
-      font-weight: bold;
+      font-weight: 700;
       padding: 3.375rem 1rem 2.438rem 1.5rem
     }
 
     @media screen and (min-width:1024px) {
       .steps-header {
-        padding: 3.875rem 0rem 1.938rem 0rem
+        padding: 3.875rem 0 1.938rem
       }
+    }
+
+    .navigation-contact-tel {
+      display: flex;
+      position: relative;
+      margin-top: 2.1rem;
+      font-size: .875rem;
+      font-weight: 700;
+      color: #fff;
+      justify-content: space-between;
+      padding: 0
+    }
+
+    .navigation-contact-seperator {
+      position: absolute;
+      margin-top: 1rem;
+      width: 100%;
+      height: 1px;
+      background-image: linear-gradient(to right, transparent 80%, #eb2328 20%);
+      opacity: .7;
+      background-position: bottom;
+      background-size: 10px 1.5px
+    }
+
+    .navigation-contact-email {
+      display: flex;
+      position: relative;
+      margin-top: 2.188rem;
+      font-size: .875rem;
+      font-weight: 700;
+      color: #fff;
+      justify-content: space-between;
+      padding: 0
     }
 
     .steps-lists .path-steps .step {
       display: flex;
       position: relative;
-      margin-bottom: 0rem;
-      border-left: 4px solid #EB2328;
-      border-bottom: 1px solid #0F031F;
+      margin-bottom: 0;
+      border-left: 4px solid #eb2328;
+      border-bottom: 1px solid #0f031f;
       justify-content: space-between
     }
 
@@ -842,14 +1155,6 @@
       top: 0;
       height: 0;
       width: 4px
-    }
-
-    .steps-lists .path-steps .step.display-type .step-illustration {
-      display: none
-    }
-
-    .steps-lists .path-steps .step.display-type .step-content {
-      width: auto
     }
 
     .steps-lists .path-steps .step .step-illustration {
@@ -885,78 +1190,61 @@
     .steps-lists .path-steps .step h2 {
       font-size: .75rem;
       font-weight: medium;
-      margin: 0 0 .25rem 0;
+      margin: 0 0 .25rem;
       max-height: 5rem;
       overflow: hidden;
       line-height: 1rem
     }
 
-    .steps-lists .path-steps .step .tag {
-      font-size: .5rem;
-      line-height: 1px
-    }
-
-    .steps-lists .path-steps .step .tag:after {
-      content: ", "
-    }
-
-    .steps-lists .path-steps .step .tag:last-child:after {
-      content: ""
-    }
-
-    .section-fullscreen {
-      position: relative;
-      min-height: 100vh;
-      background-size: cover;
-      background-position: center;
-      color: #210029
-    }
-
-    .section-fullscreen .inner-content {
-      box-sizing: border-box;
-      min-height: 100vh;
-      position: relative;
+    .next-step-nag {
+      position: fixed;
       display: flex;
-      flex-direction: column;
-      align-items: center;
-      justify-content: center;
-      margin: 0 auto
+      left: 0;
+      right: 0;
+      bottom: -1px;
+      height: 4.375em;
+      line-height: 50px;
+      background: #271839;
+      color: #fff;
+      border-top: 2px solid #f70f4d;
+      visibility: visible;
+      -webkit-transform: translateY(100%);
+      transform: translateY(100%);
+      justify-content: space-between
     }
 
-    .section-fullscreen .full-screen-wrapper {
-      display: block;
-      text-align: center
+    .next-step-nag h2 {
+      font-size: .75rem;
+      line-height: 1rem
     }
 
-    .section-fullscreen h1 {
-      text-align: center;
-      font-size: 1.875rem;
-      font-weight: bold;
-      margin: 0 auto
+    .next-step-nag .step-img {
+      box-sizing: border-box;
+      width: 4.375rem;
+      height: 4.375rem;
+      flex-shrink: 0;
+      margin-left: 1.5rem;
+      float: right
     }
 
-    .section-fullscreen .next-down {
-      margin-top: 3rem;
-      display: block
+    .next-step-nag .img-wrapper {
+      position: relative;
+      width: 100%;
+      height: 100%
     }
 
-    .section-fullscreen .next-down i {
-      font-size: 3rem
+    .next-step-nag img {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      object-fit: cover
     }
 
     @media screen and (min-width:769px) {
-      .section-fullscreen .inner-content {
-        max-width: 680px
-      }
-
-      .section-fullscreen h1 {
-        font-size: 3.75rem
-      }
-    }
-
-    @media screen and (min-width:1024px) {
-      .section-fullscreen .inner-content {
-        max-width: 970px
+      .next-step-nag {
+        display: none
       }
     }
 
@@ -965,29 +1253,31 @@
       line-height: 32px
     }
 
-    @media screen and (max-width:769px) {
-      .copyright {
-        float: left
-      }
-    }
-
     .section-footer a {
       font-weight: 600;
-      font-size: 0.8rem
+      font-size: .8rem
     }
 
     .section-footer .footer-additional-links {
       margin: 1.5rem auto 1rem 0;
-      font-size: 0.8rem
+      font-size: .8rem
     }
 
     .section-footer .footer-additional-links.pages {
       margin: 1rem auto
     }
 
+    .section-footer .footer-additional-links span {
+      padding: 0
+    }
+
     .section-footer .column3 {
       display: inline-block;
       width: 50%
+    }
+
+    .section-footer .column3.socialNav {
+      vertical-align: middle
     }
 
     @media screen and (max-width:769px) {
@@ -996,13 +1286,7 @@
         margin-top: 10px;
         display: none
       }
-    }
 
-    .section-footer .column3.socialNav {
-      vertical-align: middle
-    }
-
-    @media screen and (max-width:769px) {
       .section-footer .column3.socialNav {
         width: 100%;
         margin-top: 10px;
@@ -1051,25 +1335,7 @@
     .section-footer .footer-tagline {
       margin: 0;
       font-size: 18px;
-      letter-spacing: 0;
       line-height: 32px
-    }
-
-    .site-logo-footer {
-      margin: 0;
-      line-height: 0;
-      text-align: center
-    }
-
-    .site-logo-footer a {
-      display: flex;
-      background-repeat: no-repeat;
-      background-position: center center;
-      height: 2rem;
-      width: 7rem;
-      text-indent: -9999px;
-      vertical-align: middle;
-      background-size: 100%
     }
 
     .section-footer .row {
@@ -1106,7 +1372,8 @@
       }
     }
 
-    .a-fade {
+    .a-slide {
+      transform: scale(1);
       opacity: 1
     }
   </style>
@@ -1120,95 +1387,6 @@
 <body>
 
   <div id="swup">
-    <style>
-      body .top-menu,
-      body .steps-lists {
-        background-color: #271839;
-      }
-
-      body .top-menu .site-logo a {
-        background-image: url(../assets/flockrush-logo-white.svg);
-      }
-
-      @media screen and (min-width:768px) {
-        body .top-menu .social-nav .social-additionals {
-          background-color: #271839;
-        }
-      }
-
-      body .steps-filters {
-        background-color: #5497e2;
-      }
-
-      body .steps-filters i,
-      body .steps-filters input {
-        color: #fff;
-      }
-
-      body .steps-filters input::-webkit-input-placeholder {
-        color: #fff;
-      }
-
-      body .steps-filters input::-moz-placeholder {
-        color: #fff;
-      }
-
-      body .steps-filters input:-ms-input-placeholder {
-        color: #fff;
-      }
-
-      body .steps-filters input:-moz-placeholder {
-        color: #fff;
-      }
-
-      body .steps-filters input::placeholder {
-        color: #fff;
-      }
-
-      body .path-steps-container {
-        #ebff99;
-        false;
-      }
-
-      body .steps-lists .path-steps .step {
-        border-bottom: 1px solid #EB2328;
-        border-left: 4px solid #EB2328;
-      }
-
-      body .steps-lists .path-steps .step.current,
-      body .steps-lists .path-steps .step:hover {
-        background-color: #EB2328;
-      }
-
-      body .steps-lists .path-steps .step:after {
-        background-color: #EB2328;
-      }
-
-      body .steps-lists .path-steps .step-no-match {
-        color: #271839;
-      }
-
-      body .site .content-title .title,
-      body .steps-lists .path-steps .step h2 {
-        color: #fff;
-      }
-
-      body .site .content-title .tag,
-      body .steps-lists .path-steps .step .tag {
-        color: #404040;
-      }
-
-      body .next-step {
-        color: #fff;
-        background-color: rgba(15, 3, 31, .6);
-      }
-
-
-      body .flockrush-forks {
-        color: #fff !important;
-        background-color: #2185D0 !important;
-      }
-    </style>
 
     <div class="site nav-open">
       <header class="top-menu">
@@ -1222,7 +1400,7 @@
         </div>
         <div class="overlay-cta-nav display-mobile-only">
           <a href="#" data-contact-form-trigger="1">
-            <img class="ux info icon" src="../assets/flockrush-info-icon-old.png" alt="Flockrush contact chat icon">
+            <img class="ux info icon" src="../assets/flockrush-info-icon-old.webp" alt="Flockrush contact chat icon">
           </a>
         </div>
         <div class="overlay-cta-nav overlay-up-next-nav display-mobile-only">
@@ -1238,13 +1416,13 @@
             <div class="ui segment basic padding-left-0"
               style="
                 
-                background-repeat:no-repeat;background-size:100%;background-image:url(../assets/flockrush-masthead-blue-image.png);">
+                background-repeat:no-repeat;background-size:100%;background-image:url(../assets/flockrush-masthead-blue-image.webp);">
               <div class="ui text container" style="margin-left:0!important;padding-top:30%;">
                 <div class="ui left aligned grid container" style="margin-left:0!important;background-color:#fff;">
                   <div class="right aligned row padding-top-bottom-0">
                     <div class="two wide right floated column padding-0 margin-right-0"><img
                         class="ui floated right  image" alt="icon-logo"
-                        src="../assets/flockrush-icon-white-transparent.png" style="background-color: #EB2328;"></div>
+                        src="../assets/flockrush-icon-white-transparent.webp" style="background-color: #EB2328;"></div>
                   </div>
                   <div class="row padding-left-10per padding-top-0">
                     <div class="twelve wide column">
@@ -1288,7 +1466,7 @@
               <div class="ui grid">
                 <div class="row padding-0">
                   <div class="one wide centered column">
-                    <img class="ui fluid image" src="../assets/flockrush-icon-white-transparent.png"
+                    <img class="ui fluid image" src="../assets/flockrush-icon-white-transparent.webp"
                       alt="flockrush icon white" style="background-color: #EB2328;;">
                   </div>
                 </div>
@@ -1326,7 +1504,7 @@
               <div class="ui grid">
                 <div class="row padding-0">
                   <div class="one wide centered column">
-                    <img class="ui fluid image" src="../assets/flockrush-icon-white-transparent.png" alt=""
+                    <img class="ui fluid image" src="../assets/flockrush-icon-white-transparent.webp" alt=""
                       style="background-color: #EB2328;;">
                   </div>
                 </div>
@@ -1376,7 +1554,7 @@
                       style="color: #EB2328;">AI
                       solutions.</span></h2>
                   <div class="  seven wide  column" style="padding: 0rem!important;">
-                    <img class="ui large fluid image" src="../assets/flockrush-arrow-red.png"
+                    <img class="ui large fluid image" src="../assets/flockrush-arrow-red.webp"
                       alt="Flockrush wha matter is what happens after the click" style="margin-bottom: 0rem;">
                   </div>
                   <div class=" seven wide   column">
@@ -1395,7 +1573,7 @@
               <div class="ui equal width stackable grid mobile-padding-0">
                 <div class=" column" style="padding: 0rem!important;">
                   <img class="ui centered fluid image"
-                    src="../assets/flockrush-transform-your-business-with-tailored-enterprise-ai-olutions.png"
+                    src="../assets/flockrush-transform-your-business-with-tailored-enterprise-ai-olutions.webp"
                     alt="Transform Your Business with Tailored Enterprise AI Solutions" style="margin-bottom: 0rem;">
                 </div>
                 <div class="  column">
@@ -1428,7 +1606,7 @@
           </section>
           <div class="display-desktop-only">
             <div class="ui segment basic msg-block"
-              style="background-color:#120029;  background-image:url(../assets/flockrush-flying-starlings-red-transparent.png);background-repeat:no-repeat;background-position-x: right;background-position-y:bottom;">
+              style="background-color:#120029;  background-image:url(../assets/flockrush-flying-starlings-red-transparent.webp);background-repeat:no-repeat;background-position-x: right;background-position-y:bottom;">
               <div class="ui container">
                 <h2>
                   Yesterday’s focus was on incremental gains. Today, it’s all about quantum improvement. Flockrush
@@ -1496,7 +1674,7 @@
                 <div class="navigation-contact-tel">
 
                   <div class="img-wrapper-contact">
-                    <img src="../assets/flockrush-phone-icon-red.png" alt="Tel icon">
+                    <img src="../assets/flockrush-phone-icon-red.webp" alt="Tel icon">
                   </div><a href="tel:+1-800-SMART-AI">+1-800-SMART-AI</a>
                 </div>
                 <div class="navigation-contact-seperator">
@@ -1504,7 +1682,7 @@
                 <div class="navigation-contact-email">
 
                   <div class="img-wrapper-contact">
-                    <img src="../assets/flockrush-email-icon-red.png" alt="Email icon">
+                    <img src="../assets/flockrush-email-icon-red.webp" alt="Email icon">
                   </div><a href="mailto:hello@flockrush.com">hello@flockrush.com</a>
                 </div>
               </div>
@@ -1521,7 +1699,7 @@
 
                     <div class="step-illustration">
                       <div class="img-wrapper">
-                        <img src="../assets/ai-implications-for-business-strategy.png"
+                        <img src="../assets/ai-implications-for-business-strategy.webp"
                           alt="AI Implications for Business Strategy">
                       </div>
                     </div>
@@ -1535,7 +1713,7 @@
 
                     <div class="step-illustration">
                       <div class="img-wrapper">
-                        <img src="../assets/the-future-of-enterprise-ai.png" alt="The Future of Enterprise AI">
+                        <img src="../assets/the-future-of-enterprise-ai.webp" alt="The Future of Enterprise AI">
                       </div>
                     </div>
                   </a>
@@ -1548,7 +1726,7 @@
 
                     <div class="step-illustration">
                       <div class="img-wrapper">
-                        <img src="../assets/why-choose-flockrush.png" alt="Why Choose Flockrush">
+                        <img src="../assets/why-choose-flockrush.webp" alt="Why Choose Flockrush">
                       </div>
                     </div>
                   </a>
@@ -1561,7 +1739,7 @@
 
                     <div class="step-illustration">
                       <div class="img-wrapper">
-                        <img src="../assets/flockrush-ai-twins.png" alt="AI Twins/Users/surf/Downloads/ai-twins.png">
+                        <img src="../assets/flockrush-ai-twins.webp" alt="AI Twins/Users/surf/Downloads/ai-twins.webp">
                       </div>
                     </div>
                   </a>
@@ -1573,7 +1751,7 @@
                     </div>
                     <div class="step-illustration">
                       <div class="img-wrapper">
-                        <img src="../assets/flockrush-icon-white-transparent.png"
+                        <img src="../assets/flockrush-icon-white-transparent.webp"
                           alt="About Flockrush - Smarter AI Solutions">
                       </div>
                     </div>
@@ -1586,7 +1764,7 @@
       </article>
       <div class="display-mobile-only">
         <div class="ui segment basic msg-block"
-          style="background-color:#120029;  background-image:url(../assets/flockrush-flying-starlings-red-transparent-mobile.png);background-repeat:no-repeat; background-position-x: right;background-position-y:bottom;">
+          style="background-color:#120029;  background-image:url(../assets/flockrush-flying-starlings-red-transparent-mobile.webp);background-repeat:no-repeat; background-position-x: right;background-position-y:bottom;">
           <div class="ui container">
             <h2>
               Yesterday’s focus was on incremental gains. Today, it’s all about quantum improvement. Flockrush empowers
@@ -1653,7 +1831,7 @@
         </div>
         <div class="step-img">
           <div class="img-wrapper">
-            <img src="../assets/ai-implications-for-business-strategy.png" alt="AI Implications for Business Strategy">
+            <img src="../assets/ai-implications-for-business-strategy.webp" alt="AI Implications for Business Strategy">
           </div>
         </div>
 
@@ -1669,7 +1847,7 @@
             <div class="navigation-contact-tel">
 
               <div class="img-wrapper-contact">
-                <img src="../assets/flockrush-phone-icon-red.png" alt="Tel icon">
+                <img src="../assets/flockrush-phone-icon-red.webp" alt="Tel icon">
               </div><a href="tel:+1-800-SMART-AI">+1-800-SMART-AI</a>
             </div>
             <div class="navigation-contact-seperator">
@@ -1677,7 +1855,7 @@
             <div class="navigation-contact-email">
 
               <div class="img-wrapper-contact">
-                <img src="../assets/flockrush-email-icon-red.png">
+                <img src="../assets/flockrush-email-icon-red.webp">
               </div><a href="mailto:hello@flockrush.com">hello@flockrush.com</a>
             </div>
           </div>
