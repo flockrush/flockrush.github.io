@@ -12,6 +12,10 @@ purgecss --css css/app.css --content AI-Twins-ALIA/index.html --output AI-Twins-
 
 purgecss --css css/app.css --content the-future-of-enterprise-ai/index.html --output the-future-of-enterprise-ai/
 
+purgecss --css css/app.css --content ai-implications-for-business-strategy/index.html --output ai-implications-for-business-strategy/
+
+cleancss -o ai-implications-for-business-strategy/app.min.css ai-implications-for-business-strategy/app.css --source-map
+
 cleancss -o empowering-your-business-with-smarter-ai-solutions/app.min.css empowering-your-business-with-smarter-ai-solutions/app.css --source-map
 
 cleancss -o about/app.min.css about/app.css --source-map
