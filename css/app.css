@@ -1000,15 +1000,6 @@ img.ui.bordered.image {
  * http://opensource.org/licenses/MIT
  *
  */
-.ui.primary.button.bubble {
-  background-color: #eb2328;
-  padding: 1rem 2rem;
-  border-radius: 100000px;
-}
-
-.ui.primary.button.bubble:hover {
-  background-color: #3cf;
-}
 .ui.grid {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -21431,7 +21422,17 @@ html.is-leaving.to-backward .a-slide {
   padding-left: 28.5em
 }
 
-* //* section - excerpt
+.ui.primary.button.bubble {
+  background-color: #eb2328;
+  padding: 1rem 2rem;
+  border-radius: 100000px;
+}
+
+.ui.primary.button.bubble:hover {
+  background-color: #3cf;
+}
+
+/* section - excerpt
 
 .section-excerpt .container {
   max-width: 65.25rem;
