@@ -1,4 +1,4 @@
-purgecss --css css/app.css --content empower-your-business-with-smarter-ai-solutions/index.html --output empower-your-business-with-smarter-ai-solutions/
+purgecss --css css/app.css --content be-ai-ready/index.html --output be-ai-ready/
 
 purgecss --css css/app.css --content about/index.html --output about/
 
@@ -16,7 +16,7 @@ purgecss --css css/app.css --content ai-implications-for-business-strategy/index
 
 cleancss -o ai-implications-for-business-strategy/app.min.css ai-implications-for-business-strategy/app.css --source-map
 
-cleancss -o empower-your-business-with-smarter-ai-solutions/app.min.css empower-your-business-with-smarter-ai-solutions/app.css --source-map
+cleancss -o be-ai-ready/app.min.css be-ai-ready/app.css --source-map
 
 cleancss -o about/app.min.css about/app.css --source-map
 
@@ -47,7 +47,7 @@ npx terser js/app.js -o js/app.min.js --compress --mangle
             http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
 <!-- created with Free Online Sitemap Generator www.xml-sitemaps.com -->
 
-empower-your-business-with-smarter-ai-solutions
+be-ai-ready
 AI-Twins-ALIA/index.html
 why-choose-flockrush
 the-future-of-enterprise-ai

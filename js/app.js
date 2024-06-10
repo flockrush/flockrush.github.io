@@ -296,15 +296,7 @@ var initSwup = function ($) {
     } else {
       console.error('Accept button not found');
     }
-  }
-  function copyToClipboard() {
-    var copyText = document.getElementById("clipboardContent");
-    copyText.select();
-    copyText.setSelectionRange(0, 99999); // For mobile devices
-    document.execCommand("copy");
-    alert("Copied the text: " + copyText.value);
-  }
-
+  };
 
   // Initialize consent banner on page load
   $(document).ready(initConsentBanner);
@@ -346,7 +338,7 @@ var initSwup = function ($) {
       }
     }
   });
-}
+};
 
 var flockSlideSimpleItemsAnimate = function ($, $slide, $header, $secondaryHeader, $items) {
   var itemDuration = 500;
@@ -869,6 +861,20 @@ var onYouTubeIframeAPIReady = function () {
 // }
 // var onPlayerStateChange = function(event) {
 // }
+function copyToClipboard(text) {
+  navigator.clipboard.writeText(text).then(function () {
+    alert("Copied the text: " + text);
+  }).catch(function (error) {
+    alert("Failed to copy text: " + error);
+  });
+}
+
+document.addEventListener("DOMContentLoaded", function () {
+  // Attach event listener to the email icon
+  document.getElementById("copyEmail").addEventListener("click", function () {
+    copyToClipboard("hello@flockrush.com");
+  });
+});
 
 Zepto(function ($) {
   beforeInitSwup($);
