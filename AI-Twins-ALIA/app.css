@@ -1142,28 +1142,12 @@ i.icon.address.card:before {
   content: "\f2bb"
 }
 
-i.icon.angle.down:before {
-  content: "\f107"
-}
-
-i.icon.angle.left:before {
-  content: "\f104"
-}
-
-i.icon.angle.right:before {
-  content: "\f105"
-}
-
 i.icon.at:before {
   content: "\f1fa"
 }
 
 i.icon.bold:before {
   content: "\f032"
-}
-
-i.icon.caret.down:before {
-  content: "\f0d7"
 }
 
 i.icon.caret.left:before {
@@ -1176,10 +1160,6 @@ i.icon.caret.right:before {
 
 i.icon.copyright:before {
   content: "\f1f9"
-}
-
-i.icon.d.and.d:before {
-  content: "\f38d"
 }
 
 i.icon.ellipsis.horizontal:before {
@@ -1200,10 +1180,6 @@ i.icon.forward:before {
 
 i.icon.history:before {
   content: "\f1da"
-}
-
-i.icon.i.cursor:before {
-  content: "\f246"
 }
 
 i.icon.id.card:before {
@@ -1318,10 +1294,6 @@ i.icon.target:before {
   content: "\f140"
 }
 
-i.icon.text.cursor:before {
-  content: "\f246"
-}
-
 i.icon.translate:before {
   content: "\f1ab"
 }
@@ -1382,7 +1354,6 @@ i.icon.window.close.outline:before {
 }
 
 
-i.icon.d.and.d,
 i.icon.facebook,
 i.icon.instagram,
 i.icon.js,
@@ -2426,22 +2397,6 @@ a {
   z-index: 2050;
 }
 
-.top-menu .toggle-sidebar {
-  margin: 0;
-  padding: 0 1rem;
-  line-height: 0;
-  text-align: center;
-}
-
-.top-menu .toggle-sidebar span {
-  cursor: pointer;
-  display: block;
-  width: 1.2rem;
-  height: 1rem;
-  background-position: center;
-  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 448 512'%3E%3Cpath style='fill:%239d9d9d' d='M16 132h416c8.837 0 16-7.163 16-16V76c0-8.837-7.163-16-16-16H16C7.163 60 0 67.163 0 76v40c0 8.837 7.163 16 16 16zm0 160h416c8.837 0 16-7.163 16-16v-40c0-8.837-7.163-16-16-16H16c-8.837 0-16 7.163-16 16v40c0 8.837 7.163 16 16 16zm0 160h416c8.837 0 16-7.163 16-16v-40c0-8.837-7.163-16-16-16H16c-8.837 0-16 7.163-16 16v40c0 8.837 7.163 16 16 16z'/%3E%3C/svg%3E");
-}
-
 .top-menu .site-logo {
   margin: 0;
   padding: 0 .5rem;
@@ -2812,14 +2767,6 @@ a {
   display: block;
 }
 
-.path-steps-menu .banner {
-  width: 100%;
-}
-
-.path-steps-menu .banner img {
-  width: 100%;
-}
-
 .steps-header {
   font-size: 1.313rem;
   font-weight: bold;
@@ -2963,13 +2910,6 @@ a {
 /* feed-style variant */
 
 /* type-style variant */
-.steps-lists .path-steps .step.display-type .step-illustration {
-  display: none;
-}
-
-.steps-lists .path-steps .step.display-type .step-content {
-  width: auto;
-}
 
 .steps-lists .path-steps .step .step-illustration {
   box-sizing: border-box;
@@ -3138,67 +3078,6 @@ a {
 }
 
 /* section-fullscreen */
-.section-fullscreen {
-  position: relative;
-  min-height: 100vh;
-  background-size: cover;
-  background-position: center;
-  color: #210029;
-}
-
-.section-fullscreen .inner-content {
-  box-sizing: border-box;
-  min-height: 100vh;
-  position: relative;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  margin: 0 auto;
-}
-
-.section-fullscreen .full-screen-wrapper {
-  display: block;
-  text-align: center;
-}
-
-.section-fullscreen h1 {
-  text-align: center;
-  font-size: 1.875rem;
-  font-weight: bold;
-  margin: 0 auto;
-}
-
-.section-fullscreen .message {
-  font-size: 1.5rem;
-  text-align: center;
-  display: inline-block;
-}
-
-.section-fullscreen .next-down {
-  margin-top: 3rem;
-  display: block;
-}
-
-.section-fullscreen .next-down i {
-  font-size: 3rem;
-}
-
-@media screen and (min-width:769px) {
-  .section-fullscreen .inner-content {
-    max-width: 680px;
-  }
-
-  .section-fullscreen h1 {
-    font-size: 3.75rem;
-  }
-}
-
-@media screen and (min-width:1024px) {
-  .section-fullscreen .inner-content {
-    max-width: 970px;
-  }
-}
 
 /* section - portfolio-alternate */
 
@@ -3283,7 +3162,7 @@ a {
 }
 
 /* .section-footer .column3.socialNav .facebook {
-  /*background-image:url("/assets/facebook.webp");
+  background-image:url("/assets/facebook.webp");
 }*/
 
 .section-footer .column3.socialNav .facebook:hover {
@@ -3299,7 +3178,7 @@ a {
 }
 
 /*.section-footer .column3.socialNav .linkedIn {
-  /*background-image:url("/assets/linkedin.webp");
+  background-image:url("/assets/linkedin.webp");
 }*/
 
 .section-footer .column3.socialNav .linkedIn:hover {
@@ -3307,7 +3186,7 @@ a {
 }
 
 /*.section-footer .column3.socialNav .instagram {
-  /*background-image:url("/assets/instagram.webp");
+  background-image:url("/assets/instagram.webp");
 }*/
 
 .section-footer .column3.socialNav .instagram:hover {
@@ -3315,7 +3194,7 @@ a {
 }
 
 /*.section-footer .column3.socialNav .vimeo {
-  /*background-image:url("/assets/vimeo.webp");
+  background-image:url("/assets/vimeo.webp");
 }*/
 
 .section-footer .column3.socialNav .flockrush {
@@ -3382,25 +3261,6 @@ a {
   line-height: 32px;
 }
 
-.site-logo-footer {
-  margin: 0;
-  line-height: 0;
-  text-align: center;
-}
-
-.site-logo-footer a {
-  display: flex;
-  background-repeat: no-repeat;
-  background-position: center center;
-  height: 2rem;
-  width: 7rem;
-  text-indent: -9999px;
-  vertical-align: middle;
-  background-size: 100%;
-  -webkit-transition: width 0.3s, height 0.3s, -webkit-transform 0.3s;
-  transition: all 0.3s;
-}
-
 .section-footer .row {
   margin-right: auto;
   margin-left: auto;
@@ -3438,7 +3298,7 @@ screen and (min-width: 40em) {
 }
 
 /*.section-footer .footer-container .column3.socialNav .facebook {
-  /*background-image:url("/assets/facebook.webp");
+  background-image:url("/assets/facebook.webp");
 }*/
 
 /*.section-footer .footer-container .column3.socialNav .twitter {
@@ -3446,7 +3306,7 @@ screen and (min-width: 40em) {
 }*/
 
 /*.section-footer .footer-container .column3.socialNav .linkedIn {
-  /*background-image:url("/assets/linkedin.webp");
+  background-image:url("/assets/linkedin.webp");
 }*/
 
 /*.section-footer .footer-container .column3.socialNav .instagram {
@@ -3454,7 +3314,7 @@ screen and (min-width: 40em) {
 }*/
 
 /*.section-footer .footer-container .column3.socialNav .vimeo {
-  /*background-image:url("/assets/vimeo.webp");
+  background-image:url("/assets/vimeo.webp");
 }*/
 
 /* section webinar form */
@@ -3468,10 +3328,6 @@ screen and (min-width: 40em) {
 /** sections overrides **/
 
 /* swup page animation */
-.a-fade {
-  transition: .4s;
-  opacity: 1;
-}
 
 .a-slide {
   transition: .5s;

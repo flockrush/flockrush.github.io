@@ -20188,7 +20188,7 @@ screen and (min-width: 40em) {
 }
 
 /* .section-footer .column3.socialNav .facebook {
-  /*background-image:url("/assets/facebook.webp");
+  background-image:url("/assets/facebook.webp");
 }*/
 
 .section-footer .column3.socialNav .facebook:hover {
@@ -20204,7 +20204,7 @@ screen and (min-width: 40em) {
 }
 
 /*.section-footer .column3.socialNav .linkedIn {
-  /*background-image:url("/assets/linkedin.webp");
+  background-image:url("/assets/linkedin.webp");
 }*/
 
 .section-footer .column3.socialNav .linkedIn:hover {
@@ -20212,7 +20212,7 @@ screen and (min-width: 40em) {
 }
 
 /*.section-footer .column3.socialNav .instagram {
-  /*background-image:url("/assets/instagram.webp");
+  background-image:url("/assets/instagram.webp");
 }*/
 
 .section-footer .column3.socialNav .instagram:hover {
@@ -20220,7 +20220,7 @@ screen and (min-width: 40em) {
 }
 
 /*.section-footer .column3.socialNav .vimeo {
-  /*background-image:url("/assets/vimeo.webp");
+  background-image:url("/assets/vimeo.webp");
 }*/
 
 .section-footer .column3.socialNav .vimeo:hover {
@@ -20468,7 +20468,7 @@ screen and (min-width: 40em) {
 }
 
 /*.section-footer .footer-container .column3.socialNav .facebook {
-  /*background-image:url("/assets/facebook.webp");
+  background-image:url("/assets/facebook.webp");
 }*/
 
 .section-footer .footer-container .column3.socialNav .facebook:hover {
@@ -20484,7 +20484,7 @@ screen and (min-width: 40em) {
 }
 
 /*.section-footer .footer-container .column3.socialNav .linkedIn {
-  /*background-image:url("/assets/linkedin.webp");
+  background-image:url("/assets/linkedin.webp");
 }*/
 
 .section-footer .footer-container .column3.socialNav .linkedIn:hover {
@@ -20500,7 +20500,7 @@ screen and (min-width: 40em) {
 }
 
 /*.section-footer .footer-container .column3.socialNav .vimeo {
-  /*background-image:url("/assets/vimeo.webp");
+  background-image:url("/assets/vimeo.webp");
 }*/
 
 .section-footer .footer-container .column3.socialNav .vimeo:hover {
@@ -22159,4 +22159,16 @@ body.flockrush-forks--full-height-right .flockrush-forks .tile .title {
 
 .section-email-collect input {
   box-sizing: border-box;
+}
+
+#masthead {
+  background: url('../assets/flockrush-masthead-blue-image.webp') no-repeat center center;
+  background-size: cover;
+}
+
+@media (max-width: 768px) {
+  #masthead {
+    background: url('../assets/flockrush-masthead-blue-image-mobile.webp') no-repeat center center;
+    background-size: cover;
+  }
 }
