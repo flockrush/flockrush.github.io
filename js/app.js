@@ -297,6 +297,14 @@ var initSwup = function ($) {
       console.error('Accept button not found');
     }
   }
+  function copyToClipboard() {
+    var copyText = document.getElementById("clipboardContent");
+    copyText.select();
+    copyText.setSelectionRange(0, 99999); // For mobile devices
+    document.execCommand("copy");
+    alert("Copied the text: " + copyText.value);
+  }
+
 
   // Initialize consent banner on page load
   $(document).ready(initConsentBanner);
