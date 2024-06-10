@@ -178,7 +178,6 @@ var onLoadHook = function ($, initial) {
   }, 200);
   initPdfs($);
   initNextStep($);
-  initSectionFirstSteps($);
   initSectionVideoAndBanner($);
   initSectionSocialNetworksShare($);
   initFlockSlide($);
