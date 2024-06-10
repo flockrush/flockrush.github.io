@@ -861,20 +861,33 @@ var onYouTubeIframeAPIReady = function () {
 // }
 // var onPlayerStateChange = function(event) {
 // }
-function copyToClipboard(text) {
-  navigator.clipboard.writeText(text).then(function () {
-    alert("Copied the text: " + text);
+function copyToClipboard() {
+  var copyText = document.getElementById("clipboardContent");
+
+  // Temporarily add the input to the document to select its value
+  var tempInput = document.createElement("input");
+  tempInput.value = copyText.value;
+  document.body.appendChild(tempInput);
+
+  tempInput.select();
+  tempInput.setSelectionRange(0, 99999); // For mobile devices
+
+  // Copy the text inside the input field
+  navigator.clipboard.writeText(tempInput.value).then(function () {
+    alert("Copied the text: " + tempInput.value);
   }).catch(function (error) {
     alert("Failed to copy text: " + error);
   });
+
+  // Remove the temporary input from the document
+  document.body.removeChild(tempInput);
 }
 
 document.addEventListener("DOMContentLoaded", function () {
-  // Attach event listener to the email icon
-  document.getElementById("copyEmail").addEventListener("click", function () {
-    copyToClipboard("hello@flockrush.com");
-  });
+  // Ensuring the copyToClipboard function is available globally
+  window.copyToClipboard = copyToClipboard;
 });
+
 
 Zepto(function ($) {
   beforeInitSwup($);

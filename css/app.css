@@ -22172,3 +22172,7 @@ body.flockrush-forks--full-height-right .flockrush-forks .tile .title {
     background-size: cover;
   }
 }
+
+.img-wrapper-contact {
+  cursor: pointer;
+}

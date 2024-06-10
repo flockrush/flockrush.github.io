@@ -3230,3 +3230,7 @@ screen and (min-width: 40em) {
 
 /* section-email-collect 
 .section-email-collect {}*/
+
+.img-wrapper-contact {
+  cursor: pointer;
+}
