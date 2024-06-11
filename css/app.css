@@ -993,7 +993,7 @@ img.ui.bordered.image {
 
 .ui.primary.button.bubble {
   background-color: #120029;
-  padding: 1rem 2rem;
+  padding: 1rem 4rem;
   border-radius: 100000px;
 }
 
