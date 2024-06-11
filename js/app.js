@@ -88,11 +88,11 @@ var isTouchDevice = function () {
 
 // overlay contact form
 
+// Initialize the contact form
 var initContactForm = function ($, wrapperSelector, triggerSelector) {
   var $wrapper = $(wrapperSelector);
   var $triggers = $(triggerSelector);
-  // console.log($wrapper,$triggers)
-  // console.log('Contact overlay  form js loaded')
+
   if ($wrapper.length > 0 && $triggers.length > 0) {
     $triggers.click(function () {
       if ($wrapper.hasClass('opened')) {
@@ -103,7 +103,7 @@ var initContactForm = function ($, wrapperSelector, triggerSelector) {
           $wrapper.removeClass('opened');
         });
       }
-    })
+    });
   }
 };
 
@@ -168,8 +168,9 @@ var beforeInitSwup = function ($) {
   $(document).on('flock:sidebar:closed', function () {
     destroySticky($);
   });
-}
+};
 
+// Hook to run on load
 var onLoadHook = function ($, initial) {
   initOverlayed($);
   replaceVars($);
@@ -178,10 +179,6 @@ var onLoadHook = function ($, initial) {
   }, 200);
   initPdfs($);
   initNextStep($);
-  initSectionVideoAndBanner($);
-  initSectionSocialNetworksShare($);
-  initFlockSlide($);
-  //console.log('Load hooks invoked')
 
   initContactForm($, '.overlay-contact-form', '[data-contact-form-trigger="1"]');
   if (window.twttr) {
@@ -190,7 +187,8 @@ var onLoadHook = function ($, initial) {
   if (window.instgrm) {
     window.instgrm.Embeds.process();
   }
-}
+};
+
 
 var replaceVarsDecode = function (s) {
   return decodeURIComponent(s.replace(/\+/g, ' '));
@@ -576,43 +574,6 @@ var flockSlideHideState = function ($, $node) {
     scaleY: 0,
     opacity: 0,
   }, { duration: 0 });
-}
-
-var initSectionVideoAndBanner = function ($) {
-  var $videos = $('.section-video-and-banner .video')
-  var $overlays = $videos.children('.overlay');
-  $videos.each(function () {
-    var $video = $(this);
-    var $overlay = $video.children('.overlay');
-    $overlay.on('click', function (e) {
-      $overlays.show();
-      $videos.removeClass('selected');
-      $videos.forEach(function (v) {
-        if (v !== $video[0]) {
-          if (v && v.player) {
-            v.player.stopVideo();
-          } else {
-            var videoPlayer = $(v).children('video')[0];
-            if (videoPlayer) {
-              videoPlayer.pause();
-              videoPlayer.controls = false;
-            }
-          }
-        }
-      });
-      $overlay.hide();
-      $video.addClass('selected');
-      if ($video[0] && $video[0].player) {
-        $video[0].player.playVideo();
-      } else {
-        var videoPlayer = $video.children('video')[0];
-        if (videoPlayer) {
-          videoPlayer.play();
-          videoPlayer.controls = true;
-        }
-      }
-    });
-  });
 }
 
 var initMenuToggle = function ($) {
